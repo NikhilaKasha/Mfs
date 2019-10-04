@@ -1,0 +1,35 @@
+{% extends "crm/base.html" %}
+{% load staticfiles %}
+
+
+{% block title %}About Maverick Food Service{% endblock %}
+
+{% block content %}
+<style>
+
+    .aboutus {
+      position:static;
+            margin:0;
+        right: 0;
+        padding:0;
+      max-width: 100px;
+
+
+        height: 200px;
+
+        }
+
+
+</style>
+
+                                    <div class="aboutus">
+                                        <img src="{% static "images/maverick.jpg" %}" alt="maverick"/>
+                                         </div>
+
+
+    <h1>About Maverick Food Service</h1>
+
+    <p>UNO’s Maverick Food Pantry aims to contribute to UNO’s culture of caring by providing resources to those in immediate need and connecting them with additional resources in the greater Omaha area for long-term support. The Maverick Food Pantry offers food and personal hygiene products to all members of the UNO community by providing healthy, organic, and culturally sensitive items. Requests for food packages can be submitted through an easy online form. </p>
+
+
+{% endblock %}
